@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="main-content">
+    <h1>{{>header}}</h1>
+    <form name="weatherform">
+        <p>Enter location to get wether</p>
+        <input placeholder="Location" name = 'location' >
+        <button>search</button>
+    </form>
+    <p id = "message_1"></p>
+</div>
+{{>footer}}
+<script src='./js/app.js'></script>
+</body>
+</html>
